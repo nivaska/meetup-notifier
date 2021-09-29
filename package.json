@@ -1,0 +1,19 @@
+{
+  "name": "meetup-notifier-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "graphql": "^15.6.0",
+    "graphql-request": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.5.0",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
